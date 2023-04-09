@@ -5,9 +5,6 @@ import { GEO_API_URL, geoAPIOptions } from "../../api";
 const Search = ({ onSearchChange }) => {
   const [search, setSearch] = useState(null);
 
-  console.log(GEO_API_URL);
-  console.log(geoAPIOptions);
-
    const loadOptions = (inputValue) => {
      return fetch(
        `${GEO_API_URL}/cities?minPopulation=1000000&namePrefix=${inputValue}`,
