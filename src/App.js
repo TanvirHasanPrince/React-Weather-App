@@ -3,6 +3,7 @@ import './App.css';
 import { WEATHER_API_KEY, WEATHER_API_URL } from './api';
 import CurrentWeather from './components/Current Weather/CurrentWeather';
 import Search from './components/search/Search';
+import Forecast from './components/Forecast/Forecast';
 
 function App() {
 
@@ -42,6 +43,7 @@ function App() {
       {
         currentWeather && <CurrentWeather data={currentWeather}></CurrentWeather>
       }
+      <Forecast></Forecast>
       
     </div>
   );
