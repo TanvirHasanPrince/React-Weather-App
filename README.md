@@ -15,7 +15,7 @@ Check out the live demo of Weatherly: [here](https://64336f81d30591261f6080b3--m
 - CSS
 - JavaScript
 
-Installation
+## Installation
 To run Weatherly locally, follow these steps:
 
 Clone this repository to your local machine:
