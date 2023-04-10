@@ -2,7 +2,7 @@
 Weatherly is a simple weather app built with React that allows you to view current weather conditions and a 7-day forecast for any city in the world. The app uses APIs from Rapid API and Open Weather API to retrieve weather data for the specified location.
 
 Live Demo
-Check out the live demo of Weatherly: [here],(https://64336f81d30591261f6080b3--meek-centaur-9119eb.netlify.app/).
+Check out the live demo of Weatherly: [here](https://64336f81d30591261f6080b3--meek-centaur-9119eb.netlify.app/).
 
 ## Features
 - Get current weather information for any city in the world.
