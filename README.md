@@ -35,5 +35,5 @@ The app will be available at http://localhost:3000.
 ## Credits
 Weatherly was built by Tanvir Hasan Prince. Feel free to reach out to me with any questions or suggestions for improving the app.
 
-License
+## License
 This project is licensed under the terms of the [MIT license](https://opensource.org/licenses/MIT "MIT License")
