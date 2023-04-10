@@ -14,12 +14,12 @@ function App() {
 
 
    const currenWeatherFetch = fetch(
-     `${WEATHER_API_URL}/weather?lat=${lat}&lon=${lon}&appid=${WEATHER_API_KEY}`
+     `${WEATHER_API_URL}/weather?lat=${lat}&lon=${lon}&appid=${WEATHER_API_KEY}&units=metric`
    );
 
     const forcastFetch = fetch(
-     `${WEATHER_API_URL}/forecast?lat=${lat}&lon=${lon}&appid=${WEATHER_API_KEY}`
-   );
+      `${WEATHER_API_URL}/forecast?lat=${lat}&lon=${lon}&appid=${WEATHER_API_KEY}&units=metric`
+    );
 
    Promise.all([currenWeatherFetch, forcastFetch])
    .then(async (response) => {
@@ -39,7 +39,10 @@ function App() {
   return (
     <div className="container">
       <Search onSearchChange={handleonSearchChange}></Search>
-      <CurrentWeather></CurrentWeather>
+      {
+        currentWeather && <CurrentWeather data={currentWeather}></CurrentWeather>
+      }
+      
     </div>
   );
 }
