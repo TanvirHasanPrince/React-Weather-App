@@ -32,7 +32,7 @@ const Search = ({ onSearchChange }) => {
   return (
     <div>
       <AsyncPaginate
-        placeholder="Search for city"
+        placeholder="Search city"
         debounceTimeout={600}
         value={search}
         onChange={handleOnChange}
@@ -66,8 +66,6 @@ onChange and loadOptions are two props used in the AsyncPaginate component in th
 
 onChange is a function that is called when the user selects an option from the dropdown menu. It takes a single parameter searchData which represents the currently selected value. In the Search component, the onChange function is defined as follows:
 
-scss
-Copy code
 const handleOnChange = (searchData) => {
   setSearch(searchData);
   onSearchChange(searchData);
