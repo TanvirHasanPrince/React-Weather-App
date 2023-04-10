@@ -25,11 +25,16 @@ Clone this repository to your local machine:
 Install dependencies using npm:
 
 ``` npm install ``` 
+<br>
 Create a .env file in the root directory of the project and add your Open Weather API key:
+
 ``` REACT_APP_OPEN_WEATHER_API_KEY=your_api_key``` 
+
+<br>
 Start the app using npm:
 
 ``` npm start ``` 
+<br>
 The app will be available at http://localhost:3000.
 
 ## Credits
